@@ -1,0 +1,22 @@
+
+                                     ██▀███  ▓█████ ▓█████▄  ██▓  ██████
+                                    ▓██ ▒ ██▒▓█   ▀ ▒██▀ ██▌▓██▒▒██    ▒
+                                    ▓██ ░▄█ ▒▒███   ░██   █▌▒██▒░ ▓██▄
+                                    ▒██▀▀█▄  ▒▓█  ▄ ░▓█▄   ▌░██░  ▒   ██▒
+                                    ░██▓ ▒██▒░▒████▒░▒████▓ ░██░▒██████▒▒
+                                    ░ ▒▓ ░▒▓░░░ ▒░ ░ ▒▒▓  ▒ ░▓  ▒ ▒▓▒ ▒ ░
+                                      ░▒ ░ ▒░ ░ ░  ░ ░ ▒  ▒  ▒ ░░ ░▒  ░ ░
+                                      ░░   ░    ░    ░ ░  ░  ▒ ░░  ░  ░
+                                       ░        ░  ░   ░     ░        ░
+                                                     ░
+
+${AnsiColor.GREEN}
+
+                                    Application Env::     ${spring.profiles.active}
+                                   Application Port::     ${server.port}
+                                Application Version::     ${application.version}${application.formatted-version}
+                                  Application Title::     ${spring.application.name}
+                                             System::     {os.name}
+                                                PID::     ${PID}
+                                               Java::     ${java.version}
+                                Spring Boot Version::     ${spring-boot.version}${spring-boot.formatted-version}
